@@ -71,7 +71,7 @@ body
     outline-width: medium;
     outline-style:dotted;--------------più info qui: https://www.w3schools.com/css/css_outline.asp --------**/
 #banner{
-    background-image: url(images/bgblack24.jpg); /** metti immagine di background alla home **/
+    background-image: url(images/bgblack24.jpg);/** metti immagine di background alla home **/
     color: white;
     padding-top: 5%;
 }
@@ -238,7 +238,7 @@ tr:nth-child(even) {
 }
 
 .footer-box{
-    padding: 4  0px;
+    padding: 40px;
 }
 
 .footer-box img{
@@ -249,13 +249,17 @@ tr:nth-child(even) {
 
 .footer-box .fa{
     margin-right: 8px;
-    font-size: 25px;
+    font-size: 20px;
     height: 40px;
     width: 40px;
     text-align: center;
-    padding top: 7px;
+    padding-top: 7px;
     border-radius: 2px;
     background-image: linear-gradient(to right, #82635e,#593825);
+}
+
+.footer-box p:hover{
+    color: black !important;
 }
 
 .footer-box .form-control {
